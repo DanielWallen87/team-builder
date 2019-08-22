@@ -15,6 +15,15 @@ function App() {
     setTeam([...team, member])
   }
 
+  // const editMember = editedMember => {
+  //   const teamCopy = [...team];
+  //   const oldMember = teamCopy.find(findMember => findMember.id === editedMember.id);
+  //   oldMember.name = editedMember.name;
+  //   oldMember.superpower = editedMember.superpower;
+  //   setTeam(teamCopy);
+  //   // ^ if this doesn't work, try adding "findMember" to parenthesis instead
+  // }
+
   // if (!team) {
   //   return null;
   // }
@@ -24,6 +33,7 @@ function App() {
       <header className="App-header">
         <h1>Justice League Sign-Up Form</h1> 
           <TeamForm addNewMember={addNewMember} /> 
+          {/* addNewMember={editMember}/>  */}
           <Team team={team} />
           {/* Renders components and user inputs */}
       </header>

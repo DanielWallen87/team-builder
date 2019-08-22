@@ -1,4 +1,5 @@
 import React from "react";
+// import Link from "react-router-dom";
 
 const Team = props => { 
     return (
@@ -9,6 +10,7 @@ const Team = props => {
                     <div className="team-member" key={member.id}>
                         <h2>{member.name}</h2>
                         <p>{member.superpower}</p>
+                        {/* <Link to={`/edit/${member.id}`}>Edit</Link> */}
                     </div>
                 );
             })}
