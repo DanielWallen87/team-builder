@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://wallpaperaccess.com/full/518145.jpg");
+  background-size: cover;
+}
+
+.form-breaks {
+  display: block;
+  margin-bottom: 20px;
+}
