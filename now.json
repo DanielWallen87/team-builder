@@ -1,8 +1,0 @@
-{
-    "version": 2,
-    "name": "team-builder",
-    "builds": [{ "src": "team-builder/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
-    "routes": [
-        { "src": "/(.*)", "dest": "team-builder/$1" }
-    ]
-}

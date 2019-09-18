@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import data from "./data";
 
 // In this case, imports only need to go on app since it's returning all the information passed up through props.
-import Team from "./Components/Team";
-import TeamForm from "./Components/TeamForm"; 
+import Team from './Components/Team';
+import TeamForm from './Components/TeamForm';
 
 import './App.css';
 
