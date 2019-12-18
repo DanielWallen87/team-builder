@@ -3,10 +3,18 @@ body {
   justify-content: center;
   background-image: url("https://wallpaperaccess.com/full/518145.jpg");
   background-size: cover;
-  color: white;
 }
 
 .form-breaks {
   display: block;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    /* Added different image to fit mobile screens */
+    background-image: url("https://nerdmake.files.wordpress.com/2017/03/justice-league-first-image.jpg");
+    background-size: auto;
+    color: white;
+  }
 }
